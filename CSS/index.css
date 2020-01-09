@@ -129,50 +129,50 @@ table {
 .landing {
   max-width: 100%;
 }
-.headernav {
+nav {
   background: #6C46A2;
   padding: 3% 0%;
   display: flex;
   justify-content: space-around;
   color: #FFFFFF;
 }
-.headernav h1 {
+nav h1 {
   font-size: 48px;
   font-family: 'Rancho', cursive;
   width: 50%;
   margin: 0% 0% 0% 18%;
 }
 @media ( max-width: 800px ) {
-  .headernav h1 {
+  nav h1 {
     margin: 0% 0% 0% 10%;
   }
 }
-@media ( max-width: 500px ) {
-  .headernav h1 {
-    font-size: 30px;
-    width: 30%;
-  }
-}
-.headernav div {
-  font-size: 24px;
-  width: 50%;
+nav div {
+  font-size: 1.2rem;
+  width: 80%;
   margin: 1% 0% 0%;
   font-family: 'Hind Madurai', sans-serif;
+  display: flex;
 }
 @media ( max-width: 800px ) {
-  .headernav div {
-    margin: 1% 0% 0% 0%;
+  nav div {
+    margin: 1% 0% 0% 14%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media ( max-width: 500px ) {
-  .headernav div {
-    margin: 2% 0% 0% 8%;
-    font-size: 20px;
-    width: 86%;
+  nav div {
+    margin: 3% 0% 0% 0%;
   }
 }
-.headernav div a {
+nav div a {
   margin: 0% 5%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 footer {
   width: 100%;
@@ -195,6 +195,8 @@ footer .footernav a {
   display: flex;
   justify-content: center;
   padding: 15px;
+  font-family: 'Hind Madurai', sans-serif;
+  font-style: normal;
 }
 footer .footernav .two {
   border-top: 1px solid #FFFFFF;
@@ -303,18 +305,37 @@ section button {
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 6rem;
   line-height: 100%;
   font-weight: normal;
   color: #6C46A2;
 }
+@media ( max-width: 800px ) {
+  #team {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #team h1 {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 @media ( max-width: 500px ) {
   #team img {
+    display: none;
+  }
+}
+@media ( max-width: 800px ) {
+  #team #topleft {
+    width: 40%;
+  }
+}
+@media ( max-width: 800px ) {
+  #team #topright {
     display: none;
   }
 }
@@ -354,6 +375,8 @@ section button {
   font-size: 1.3rem;
   text-align: center;
   letter-spacing: 1px;
+  font-family: 'Hind Madurai', sans-serif;
+  font-style: normal;
 }
 @media ( max-width: 800px ) {
   .team .box h2 {
@@ -365,11 +388,24 @@ section button {
   width: 100%;
   font-size: 1.1rem;
   text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-style: normal;
 }
 @media ( max-width: 800px ) {
   .team .box h3 {
     font-size: 3rem;
     letter-spacing: 3px;
+  }
+}
+@media ( max-width: 800px ) {
+  .bottomimg {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media ( max-width: 800px ) {
+  #bottomright {
+    width: 40%;
   }
 }
 @media ( max-width: 500px ) {
