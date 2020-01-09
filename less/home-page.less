@@ -1,7 +1,6 @@
 //home page 
 header{
-    font-family: 'Hind Madurai', sans-serif;
-    font-style: normal;
+    .font-frame;
     font-weight: bold;
     font-size: 48px;
     color: @background;
@@ -10,12 +9,11 @@ header{
     @media @tablet {
         text-align: center;
         margin: 0% 0% 3%;
-        font-family: Hind Madurai;
-        font-style: normal;
+        .font-frame;
         font-weight: 500;
         font-size: 27px;
-        color:#FFFFFF;
-        background:#6C46A2;
+        color: @white;
+        background: @background;
         padding: 0% 0% 4%;
     }
 }
@@ -38,28 +36,27 @@ section{
 
 
     h2{
-        font-family: Hind Madurai;
-        font-style: normal;
+        .font-frame;
         font-weight: 600;
         font-size: 28px;
-        color: #353535;
+        color: @black;
         margin: 0% 0% 4% 0%;
         width: 33%;
 
         @media @tablet {
-            width: 100%;
             text-align: left;
-            margin: 7% 10% 4%;
+            margin: 7% 10%;
             font-size: 38px;
+            max-width: 100%;
+            width: 80%;
         }
     }
 
     p{
-        font-family: Hind Madurai;
-        font-style: normal;
+        .font-frame;
         font-weight: 500;
         font-size: 24px;
-        color: #353535;
+        color: @black;
         margin: 0% 0% 5% 0%;
         width: 33%;
         line-height: 33px;
@@ -72,8 +69,7 @@ section{
     }
 
     button{
-        font-family: Hind Madurai;
-        font-style: normal;
+        .font-frame;
         font-weight: 500;
         font-size: 24px;
         background: @background;

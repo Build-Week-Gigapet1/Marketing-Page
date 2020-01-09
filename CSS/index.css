@@ -201,7 +201,7 @@ header {
   header {
     text-align: center;
     margin: 0% 0% 3%;
-    font-family: Hind Madurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 27px;
@@ -228,7 +228,7 @@ section .image {
   }
 }
 section h2 {
-  font-family: Hind Madurai;
+  font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -238,14 +238,15 @@ section h2 {
 }
 @media ( max-width: 800px ) {
   section h2 {
-    width: 100%;
     text-align: left;
-    margin: 7% 10% 4%;
+    margin: 7% 10%;
     font-size: 38px;
+    max-width: 100%;
+    width: 80%;
   }
 }
 section p {
-  font-family: Hind Madurai;
+  font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -262,7 +263,7 @@ section p {
   }
 }
 section button {
-  font-family: Hind Madurai;
+  font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
