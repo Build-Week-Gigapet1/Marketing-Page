@@ -6,13 +6,34 @@ header{
     font-size: 48px;
     color: @background;
     margin: 4% 0% 3% 18%;
+
+    @media @tablet {
+        text-align: center;
+        margin: 0% 0% 3%;
+        font-family: Hind Madurai;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        color:#FFFFFF;
+        background:#6C46A2;
+        padding: 0% 0% 4%;
+    }
 }
 
 section{
     margin: 0% 0% 0% 18%;
+
+    @media @tablet {
+        text-align: center;
+        margin: 0% auto;
+    }
     
     .image{
         margin: 0% 0% -31% 55%;
+        
+        @media @tablet {
+            display:none
+        }
     }
 
 
@@ -24,6 +45,13 @@ section{
         color: #353535;
         margin: 0% 0% 4% 0%;
         width: 33%;
+
+        @media @tablet {
+            width: 100%;
+            text-align: left;
+            margin: 7% 10% 4%;
+            font-size: 38px;
+        }
     }
 
     p{
@@ -35,6 +63,12 @@ section{
         margin: 0% 0% 5% 0%;
         width: 33%;
         line-height: 33px;
+
+        @media @tablet {
+            width: 80%;
+            text-align: left;
+            margin: 0% 11% 5%;
+        }
     }
 
     button{
@@ -49,6 +83,13 @@ section{
         width: 100%;
         padding: 0.5% 0%;
         width: 33%;
+
+        @media @tablet {
+            margin: 0% 0% 20% 0%;
+            width: 100%;
+            padding: 5% 0%;
+            width: 78%;
+        }
     }
 }
 
