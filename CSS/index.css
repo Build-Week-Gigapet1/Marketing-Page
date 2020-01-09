@@ -147,6 +147,12 @@ table {
     margin: 0% 0% 0% 10%;
   }
 }
+@media ( max-width: 500px ) {
+  .headernav h1 {
+    font-size: 30px;
+    width: 30%;
+  }
+}
 .headernav div {
   font-size: 24px;
   width: 50%;
@@ -155,12 +161,14 @@ table {
 }
 @media ( max-width: 800px ) {
   .headernav div {
-    margin: 1% 0% 0% 14%;
+    margin: 1% 0% 0% 0%;
   }
 }
 @media ( max-width: 500px ) {
   .headernav div {
-    margin: 3% 0% 0% 0%;
+    margin: 2% 0% 0% 8%;
+    font-size: 20px;
+    width: 86%;
   }
 }
 .headernav div a {
@@ -224,6 +232,7 @@ section {
 }
 section .image {
   margin: 0% 0% -31% 55%;
+  width: 20%;
 }
 @media ( max-width: 800px ) {
   section .image {
