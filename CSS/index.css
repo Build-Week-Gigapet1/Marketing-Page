@@ -137,7 +137,7 @@ nav {
   color: #FFFFFF;
 }
 nav h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-family: 'Rancho', cursive;
   width: 50%;
   margin: 0% 0% 0% 18%;
@@ -145,6 +145,7 @@ nav h1 {
 @media ( max-width: 800px ) {
   nav h1 {
     margin: 0% 0% 0% 10%;
+    font-size: 2rem;
   }
 }
 @media ( max-width: 500px ) {
@@ -157,12 +158,14 @@ nav div {
   width: 80%;
   margin: 1% 0% 0%;
   font-family: 'Hind Madurai', sans-serif;
+  font-style: normal;
   display: flex;
 }
 @media ( max-width: 800px ) {
   nav div {
     margin: 1% 10% 0% 14%;
-    width: 100%;
+    width: 99%;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
   }
@@ -211,7 +214,7 @@ footer .footernav .two {
   font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   color: #6C46A2;
   margin: 4% 0% 3% 18%;
 }
@@ -225,7 +228,7 @@ footer .footernav .two {
   }
 }
 #landingheader .topRight {
-  margin: -10% 0% -6% 77%;
+  margin: -4% 0% -14% 86%;
   width: 17%;
 }
 @media ( max-width: 800px ) {
@@ -268,7 +271,7 @@ section h2 {
   font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 1.8rem;
   color: #353535;
   margin: 0% 0% 4% 0%;
   width: 33%;
@@ -302,7 +305,7 @@ section p {
   font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #353535;
   margin: 0% 0% 5% 0%;
   width: 33%;
@@ -319,7 +322,7 @@ section button {
   font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   background: #6C46A2;
   border-radius: 5px;
   color: #FFFFFF;
