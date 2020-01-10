@@ -147,6 +147,11 @@ nav h1 {
     margin: 0% 0% 0% 10%;
   }
 }
+@media ( max-width: 500px ) {
+  nav h1 {
+    font-size: 2.5rem;
+  }
+}
 nav div {
   font-size: 1.2rem;
   width: 80%;
@@ -156,7 +161,7 @@ nav div {
 }
 @media ( max-width: 800px ) {
   nav div {
-    margin: 1% 0% 0% 14%;
+    margin: 1% 10% 0% 14%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -164,7 +169,7 @@ nav div {
 }
 @media ( max-width: 500px ) {
   nav div {
-    margin: 3% 0% 0% 0%;
+    margin: 3% 0% 0% 6%;
   }
 }
 nav div a {
@@ -209,6 +214,24 @@ footer .footernav .two {
   font-size: 48px;
   color: #6C46A2;
   margin: 4% 0% 3% 18%;
+}
+#landingheader .topLeft {
+  margin: -4% 0% -11% -22%;
+  width: 15%;
+}
+@media ( max-width: 800px ) {
+  #landingheader .topLeft {
+    display: none;
+  }
+}
+#landingheader .topRight {
+  margin: -10% 0% -6% 77%;
+  width: 17%;
+}
+@media ( max-width: 800px ) {
+  #landingheader .topRight {
+    display: none;
+  }
 }
 @media ( max-width: 800px ) {
   #landingheader {
@@ -259,6 +282,22 @@ section h2 {
     width: 80%;
   }
 }
+section .middle {
+  margin: -10% 0% 0% 37%;
+  width: 12%;
+}
+@media ( max-width: 800px ) {
+  section .middle {
+    margin: -10% 0% -4% -1%;
+    width: 18%;
+  }
+}
+@media ( max-width: 500px ) {
+  section .middle {
+    margin: -20% 0% -4% -1%;
+    width: 31%;
+  }
+}
 section p {
   font-family: 'Hind Madurai', sans-serif;
   font-style: normal;
@@ -295,6 +334,24 @@ section button {
     width: 100%;
     padding: 5% 0%;
     width: 78%;
+  }
+}
+section .bottomRight {
+  margin: 0% 0% -30% 84%;
+  width: 15%;
+}
+@media ( max-width: 800px ) {
+  section .bottomRight {
+    display: none;
+  }
+}
+section .bottomleft {
+  margin: 0% 0% -30% -52%;
+  width: 15%;
+}
+@media ( max-width: 800px ) {
+  section .bottomleft {
+    display: none;
   }
 }
 .container {

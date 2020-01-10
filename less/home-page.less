@@ -6,6 +6,24 @@
     color: @background;
     margin: 4% 0% 3% 18%;
 
+    .topLeft{
+        margin: -4% 0% -11% -22%;
+        width: 15%;
+
+        @media @tablet {
+            display:none
+        }
+    }
+
+    .topRight{
+        margin: -10% 0% -6% 77%;
+        width: 17%;
+
+        @media @tablet {
+            display:none
+        }
+    }
+
     @media @tablet {
         text-align: center;
         margin: 0% 0% 3%;
@@ -53,6 +71,21 @@ section{
         }
     }
 
+    .middle{
+        margin: -10% 0% 0% 37%;
+        width: 12%;
+
+        @media @tablet {
+            margin: -10% 0% -4% -1%;
+            width: 18%;
+        }
+
+        @media @phone {
+            margin: -20% 0% -4% -1%;
+            width: 31%;
+        }
+    }
+
     p{
         .font-frame;
         font-weight: 500;
@@ -86,6 +119,24 @@ section{
             width: 100%;
             padding: 5% 0%;
             width: 78%;
+        }
+    }
+
+    .bottomRight{
+        margin: 0% 0% -30% 84%;
+        width: 15%;
+
+        @media @tablet {
+            display:none
+        }
+    }
+
+    .bottomleft{
+        margin: 0% 0% -30% -52%;
+        width: 15%;
+
+        @media @tablet {
+            display:none
         }
     }
 }
